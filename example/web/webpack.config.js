@@ -31,11 +31,7 @@ module.exports = {
       },
       {
         test: /\.go/,
-        use: [
-          {
-            loader: path.join(__dirname, "..", "..", "dist", "index.js")
-          }
-        ]
+        use: ["golang-wasm-async-loader"]
       },
       {
         test: /\.css$/,

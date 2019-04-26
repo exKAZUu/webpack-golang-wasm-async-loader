@@ -18,6 +18,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/webassembly-js-api": "0.0.2",
+    "golang-wasm-async-loader": "https://github.com/exKAZUu/webpack-golang-wasm-async-loader",
     "typescript": "^3.2.4"
   },
   "dependencies": {
